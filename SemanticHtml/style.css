@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+nav,
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.content p {
+    font-family: serif;
+}
+
+article>h3>a {
+    text-decoration: none;
+    color: black;
+}
+
+article a:visited {
+    color: 00FF00;
+}
+
+.content a:hover {
+    color: #FF00FF;
+}
+
+.content header {
+    background-color: blue;
+}
+
+header h1 {
+    padding-top: 10px;
+}
+
+nav {
+    background-color: powderblue;
+    padding: 1px 0;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    text-transform: uppercase;
+
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+#main-content {
+    background-color: yellow;
+}
+
+#main-content h2 {
+    padding-top: 10px;
+}
+
+#section-1 {
+    background-color: pink;
+    width: 100%;
+}
+
+#section-1 {
+    width: 66.66%;
+    height: 500px;
+}
+
+article {
+    background-color: green;
+}
+
+#section-1>h2 {
+    padding: 10px 5px 0;
+}
+
+#section-1 article {
+    height: 300px;
+    padding: 10px 5px 0;
+}
+
+aside {
+    background-color: red;
+    width: 33.33%;
+    float: right;
+    margin-top: -500px;
+    height: 500px;
+}
+
+aside div {
+    margin: 50px 10px;
+}
+
+#section-2 {
+    background-color: gray;
+    margin: 0 50px;
+}
+
+#section-2 h2 {
+    padding-top: 10px;
+}
+
+#section-2 img {
+    width: 150px;
+    height: 180px;
+    border: 1px solid;
+}
+
+#section-2 #img-1 {
+    margin-bottom: -119px;
+}
+
+#section-2 #img-2 {
+    float: right;
+    margin-top: -198px;
+    background-color: white;
+}
+
+#section-2 h3 {
+    padding-top: 10px;
+}
+
+#section-2 p {
+    padding-bottom: 10px;
+}
+
+#article-2 p {
+    margin-left: 160px;
+    padding-right: 160px;
+}
+
+#article-3 p {
+    padding: 10px 160px;
+}
+
+#section-3 {
+    background-color: white;
+    text-align: center;
+}
+
+#section-3 h2 {
+    padding-top: 10px;
+}
+
+form button {
+    display: block;
+    margin: 10px auto;
+    width: 120px;
+    text-transform: uppercase;
+}
+
+footer address {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1100px) and (min-width: 900px) {
+    #section-2 #img-1 {
+        margin-bottom: -137px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 700px) {
+    #section-2 #img-1 {
+        margin-bottom: -181px;
+    }
+
+    #section-2 article {
+        padding: 10px;
+    }
+
+    #section-2 article h3 {
+        padding: 0 150px;
+    }
+
+    #section-2 article p {
+        padding: 2px 160px;
+        margin: 0;
+    }
+
+    #section-2 #img-2 {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 700px) and (min-width: 500px) {
+    #section-2 #img-1 {
+        margin-bottom: -193px;
+    }
+
+    #section-2 #article-2 p {
+        padding: 0;
+    }
+
+    #section-2 #article-2 h3 {
+        padding: 0 0 0 150px;
+    }
+
+    #section-2 #article-3 h3 {
+        padding: 0 150px 0 0;
+    }
+
+    #section-2 #article-3 p {
+        padding: 0 150px 0 10px;
+    }
+}
+
+@media (max-width: 500px) and (min-width: 400px) {
+    #section-2 article p {
+        padding: 0;
+        margin: 0;
+    }
+
+    #section-2 #article-2 p {
+        padding: 0 0 0 150px;
+    }
+
+    #section-2 #article-2 h3 {
+        padding: 0 0 0 150px;
+    }
+
+    #section-2 #article-3 h3 {
+        padding: 0 150px 0 0;
+    }
+
+    #section-2 #article-3 p {
+        padding: 0 140px 0 0;
+    }
+
+    #section-2 #img-1 {
+        margin-bottom: -220px;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 400px) {
+    #section-2 article {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 600px) and (min-width: 400px) {
+
+    footer address {
+        display: block;
+        text-align: center;
+    }
+}
