@@ -1,0 +1,11 @@
+h1 {
+    margin-top: 8px;
+}
+
+#sub-content p {
+    margin: 0;
+}
+
+#sub-content .indent {
+    padding-left: 2.5em;
+}
